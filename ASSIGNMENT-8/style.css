@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background: #c7bdee;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    background-color: rgb(167, 213, 228);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 4px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+
+button {
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: rgb(82, 82, 239);
+    color: white;
+    box-shadow: none;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
